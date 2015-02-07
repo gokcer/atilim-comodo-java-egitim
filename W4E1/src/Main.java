@@ -21,6 +21,9 @@ public class Main {
         kulup.uyeEkle(mustafa);
         kulup.uyeEkle(mert);
 
+        System.out.println("Kulüp çalışmaya başladı...");
+
+
         //kulup.yeniTesvikHaberVer("http://tesvik.tubitak.gov.tr/tesvik/12345");
 
         Vector<IGirisimci> uyeler = kulup.getUyeler();
