@@ -47,4 +47,12 @@ public class GirisimcilerKulubu {
         Vector<IGirisimci> uyelerShallowCopy = new Vector<IGirisimci>(uyeler);
         return uyelerShallowCopy;
     }
+    public String[] RaporIste() {
+        String[] Raporlar = new String[uyeler.size()];
+        int i = 0;
+        for (IGirisimci iGirisimci : uyeler) {
+            Raporlar[i] =  iGirisimci.raporVer();
+        }
+        return Raporlar;
+    }
 }
