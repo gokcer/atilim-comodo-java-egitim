@@ -53,7 +53,7 @@ public class Main {
     public class MyMouseListener extends MouseAdapter {
         @Override
         public void mouseClicked(MouseEvent e) {
-            System.out.println("Fare tıklandı. Koordinat: "+e.getPoint());
+            System.out.println("Fare tıklandı. Tıklama koordinatı: "+e.getPoint());
         }
     }
 
