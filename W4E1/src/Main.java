@@ -21,6 +21,9 @@ public class Main {
         kulup.uyeEkle(mustafa);
         kulup.uyeEkle(mert);
 
+        System.out.println("Kulüp çalışmaya başladı...");
+
+
         //kulup.yeniTesvikHaberVer("http://tesvik.tubitak.gov.tr/tesvik/12345");
 
         Vector<IGirisimci> uyeler = kulup.getUyeler();
@@ -45,12 +48,14 @@ public class Main {
         JPanel panel = new JPanel();
         Frame frame = new Frame();
         panel.addMouseListener(new MyMouseListener());
+
+        // Örnek değişiklik
     }
 
     public class MyMouseListener extends MouseAdapter {
         @Override
         public void mouseClicked(MouseEvent e) {
-            System.out.println("Fare tıklandı. Koordinat: "+e.getPoint());
+            System.out.println("Mouse clicked. Coordinates: " +e.getPoint());
         }
     }
 

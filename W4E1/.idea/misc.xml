@@ -83,7 +83,11 @@
   <component name="ProjectModuleManager">
     <modules />
   </component>
+<<<<<<< .mine
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
+>>>>>>> .theirs
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="PropertiesComponent">
