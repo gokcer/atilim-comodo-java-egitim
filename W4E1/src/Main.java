@@ -48,6 +48,8 @@ public class Main {
         JPanel panel = new JPanel();
         Frame frame = new Frame();
         panel.addMouseListener(new MyMouseListener());
+
+        // Örnek değişiklik
     }
 
     public class MyMouseListener extends MouseAdapter {
